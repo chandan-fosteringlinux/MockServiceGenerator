@@ -20,6 +20,8 @@ Create `ServiceMocked.ods` with this structure:
 | user-service      | {"type":"object","properties":{...}}  | {"id":123,"name":"Test User"}        |
 | payment-service   | {"type":"array","items":{...}}        | [{"amount":50,"currency":"USD"}]     |
 
+Put the ServiceMocked.ods file in the same folder where the OdsToMockServiceGenerator.java class present
+
 > **Formatting Tips** 
 > - Use valid JSON schema formats
 > - Maintain consistent quoting
